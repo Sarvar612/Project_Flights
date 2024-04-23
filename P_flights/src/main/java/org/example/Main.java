@@ -50,7 +50,7 @@ public class Main {
             }
         prices.sort(Comparator.naturalOrder());
         for(int i=0;i<prices.size();i++){
-            if(i == prices.size() / 2){
+            if(i == prices.size() / 2-1){
                 median_price = prices.get(i)+prices.get(i+1);
             }
             av_price+=prices.get(i);
